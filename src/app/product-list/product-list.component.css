@@ -1,0 +1,14 @@
+
+  table {
+    
+    border-collapse: collapse;
+  }
+  td {
+    background-color: rgb(236, 235, 241);
+    color: rgb(44, 43, 43);
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+    text-align: left;    
+  }
+  tr:hover {background-color:#8b8b8b;}
+  

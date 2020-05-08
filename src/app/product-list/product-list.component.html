@@ -1,0 +1,17 @@
+
+
+<table>
+  <ul>
+    <tr *ngFor = "let product of products">
+      <td><img src="http://admin.universallifescience.com/{{product.image}}"
+        height="90px" width="100px" ></td>
+      <td><h4>{{product.name}}</h4>
+        <div>
+        pack size: {{product.pack_size}}   Quantity: {{product.quantity}}
+        </div>
+      </td>
+  
+    </tr>
+  </ul> 
+</table>
+
